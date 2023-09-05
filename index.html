@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlowiseAI API Demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+<!--     
+<script type="module">
+    import Chatbot from "./web.js"
+    Chatbot.init({
+        chatflowid: "04dcfdf7-013a-4470-ae07-74499ad7f611",
+        apiHost: "https://flowiseai-railway-production-c6b9.up.railway.app",
+    })
+</script>
+-->
+
+
+    <flowise-fullchatbot></flowise-fullchatbot>
+<script type="module">
+    import Chatbot from "./web.js"
+    Chatbot.initFull({
+        chatflowid: "04dcfdf7-013a-4470-ae07-74499ad7f611",
+        apiHost: "https://flowiseai-railway-production-c6b9.up.railway.app",
+    })
+</script>
+
+    
+  </body>
+</html>
